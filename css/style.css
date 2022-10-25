@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2? family= Source+Serif+Pro & family= Ubuntu:wght@400;700 & display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    overflow: hidden;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-size: 16px;
+}
+h1, nav, header{
+    font-family: 'Ubuntu', sans-serif;
+}
+h2, footer, table, ul{
+    font-family: 'Source Serif Pro', serif;
+}
+header, main h1, main h2, nav, footer{
+    padding: 0 14vw;
+}
+/*HEADER*/
+header p{
+    font-weight: 400;
+    font-size: 2em;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F2D642;
+    color: #F25822;
+    height: 8vh;
+}
+/*NAV*/
+nav a{
+    font-weight: 700;
+    color: white;
+    font-size: 1.5em;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #29AEA6;
+    height: 25vh;
+}
+nav a img{
+    width: 40px;
+    height: 40px;
+}
+/*MAIN*/
+ main{
+    display: flex;
+    flex-direction: column; 
+    background-color: #29AEA6; 
+    height: 49vh;  
+}
+/*FOOTER*/
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #F2D642;
+    color: white;
+    height: 17.67vh;
+    padding-top: 0em;
+}
+footer address, footer a{
+    font-weight: 400;
+    font-weight: normal;
+}
+footer a{
+    color: white;
+}
